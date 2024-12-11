@@ -1,0 +1,192 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+header{
+	background-color: black;
+	height: 80px;
+	width: 100%;
+	position: relative;
+}
+h1{
+	position: absolute;
+	left:120px;
+	top:0;
+	height: 80px;
+	background-image: url(../loog.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 360px;
+	text-indent: -9999px;
+}
+header ul{
+	position: absolute;
+	right: 5vw;
+	top:0;
+	line-height: 80px;
+}
+header li{
+	display: inline;
+	margin-right:4vw;
+}
+header a{
+	color: white;
+	text-decoration: none;
+}
+header a:hover{
+	text-decoration: underline;
+}
+.底色{
+	background-color: aquamarine;
+	color:white;
+	height:85vh;
+	background-image: url("../首页.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.底色 h2{
+	font-size: 40px;
+}
+.底色 p{
+	font-size: 20px;
+	margin: 25px 0;
+}
+.底色 a{
+	color: aliceblue;
+	text-decoration: none;
+	border:1px solid #ACACAC;
+	padding: 10px 20px;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.标语{
+	background-color: cadetblue;
+	color: white;
+	height: 250px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size:20px;
+	line-height:1.8em;
+}
+footer{
+	background-color: black;
+	color: #B7B7B7;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size:14px;
+}
+.游戏介绍以及世界观{
+	background-color: navajowhite;
+	color: black;
+	height: 85vh;
+	align-items: center;
+	justify-content: center;
+	font-size: 18px;
+	margin: 25px;
+}
+.游戏介绍以及世界观 img{
+	width: 300px;
+	align-items: center;
+	justify-content: center;
+}
+.人物{
+	display: flex;
+	background-color: burlywood;
+	justify-content: space-between;
+	align-items: center;
+	padding: 100px 180px 80px;
+}
+.人物 div{
+	width:300px;
+	text-align: center;
+}
+.人物 img{
+	width: 100%;
+	border-radius: 10px;
+}
+.人物 h3{
+	font-size: 20px;
+	margin: 20px 0;;
+}
+.人物 p{
+	font-size: 20px;
+	line-height: 1.6em;
+}
+.宝可梦介绍 img{
+	width: 600px;
+	float: left;
+	margin-left: 12px;
+	margin-bottom: 5px;
+}
+.整体变化{
+	display: flex;
+}
+.整体变化 video{
+	width: 50%;
+}
+.介绍{
+	width: 50%;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.介绍 p{
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.文件 img{
+	width: 700px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.洗翠{
+	display: flex;
+}
+.洗翠 video{
+	width: 50%;
+}
+.洗翠介绍{
+	width: 50%;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.洗翠介绍 h2{
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+.洗翠介绍 p{
+	line-height: 2em;
+}
+.索罗亚克{
+	display: flex;
+	background-color: wheat;
+	justify-content: space-between;
+	align-items: center;
+	padding: 100px 180px 80px;
+}
+.索罗亚克 div{
+	width: 600px;
+	text-align: center;
+}
+.索罗亚克 img{
+	width: 100%;
+	border-radius: 10px;
+}
